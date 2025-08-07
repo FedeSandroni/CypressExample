@@ -45,7 +45,7 @@ export const LoginForm = () => {
       toast({
         variant: 'success',
         title: 'login example',
-        description: 'Success',
+        description: 'Success, use routing to redirect!',
       });
     } else {
       toast({
@@ -80,7 +80,7 @@ export const LoginForm = () => {
                       <Input
                         placeholder="Type your username"
                         {...field}
-                        data-testid="web_user"
+                        id="web_user"
                       />
                     </FormControl>
                     <FormMessage />
@@ -98,7 +98,7 @@ export const LoginForm = () => {
                         type="password"
                         placeholder="Type your password"
                         {...field}
-                        data-testid="login-password"
+                        id="login-password"
                       />
                     </FormControl>
                     <FormMessage />
@@ -108,9 +108,9 @@ export const LoginForm = () => {
               <Button
                 type="submit"
                 className="w-full"
-                data-testid="login-button"
+                id="login-button"
               >
-                Ingresar
+                Enter
               </Button>
             </form>
           </Form>
