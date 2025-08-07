@@ -1,6 +1,3 @@
-export { Button } from "./button";
-export { Input } from "./input";
-export { Label } from "./label";
 export {
   Form,
   FormControl,
@@ -10,4 +7,4 @@ export {
   FormLabel,
   FormMessage,
   useFormField,
-} from "./form";
+} from './form';
